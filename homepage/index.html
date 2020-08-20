@@ -6,22 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <a href="image.html">Strona z zdjęciami</a>
+    <header class="header">
+        <div class="logo">
+            <p>Taras Ivanyk</p>
+        </div>
+
+        <button class="burger">menu</button>
+
+        <nav class="header__navigation">
+            <a class="header__navigation__link" href="image.html">Strona z zdjęciami</a>
+            <a class="header__navigation__link" href="image.html">link 1 </a>
+            <a class="header__navigation__link" href="image.html">link 2 </a>
+            <a class="header__navigation__link" href="image.html">link 3 </a>
         </nav>
     </header>
 
-    <main>
-        <header>
+    <main class="main_first">
+        <header class="header_first">
             <h1>Home page</h1>
         </header>
-        <section>
+        <section class="section_first">
             <h2> Zrobione tygodni:</h2>
             <article>
                 <h2>Tydzień I</h2>
@@ -35,6 +45,9 @@
                 </ul>
             </article>
         </section>
+        <aside class="aside">
+            <img src="img/i.jpg" alt="">
+        </aside>
     </main>
 
     <script src="main.js">

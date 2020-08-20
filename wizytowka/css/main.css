@@ -1,0 +1,74 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:after, *:before{
+    box-sizing: inherit;
+}
+
+body{
+    background: #2C2141;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,26,74,1) 52%, rgba(255,25,25,1) 100%);
+}
+
+.main{
+    background: #F8F8F8;
+    border-radius: 16px;
+    width: 624px;
+    margin: 16px;
+    padding: 32px;
+}
+
+.person{
+    display: flex;
+    align-items: start;
+}
+
+
+.person__picture{
+    margin-right: 32px;
+}
+
+.person__info{
+    margin-bottom: 24px;
+}
+
+.person__name{
+    font-size: 36px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.person__position{
+    color: #545454;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+}
+
+.person__description{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.person__link{
+    text-decoration: none;
+    color: #E20613;
+
+}
+
+.person__description--bottom-margin{
+    margin-bottom: 22px;
+}
+
+.special{
+    color: #ED6D05;
+    font-weight: normal;
+}
